@@ -55,8 +55,14 @@ body {
 }
 
 .let {
-    background-color: blue;
+     font-weight: bold;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #5b5ff7, #6c4dff);
     color: white;
+    border: none;
+    padding: 6px 16px;
+    font-size: 15px;
+
 
 }
 
@@ -79,10 +85,10 @@ body {
 
 .nav-center>h2 {
     color: white;
-    font-size: 70px;
+    font-size: 55px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    line-height: 80px;
+    line-height: 75px;
     margin-left: 30px;
     width: 50%;
     margin-top: 10px;
@@ -117,20 +123,33 @@ body {
 }
 
 .get {
-    border-radius: 5px;
     margin-top: 10px;
-    background-color: blue;
     margin-left: 30px;
-    font-size: x-large;
-
+     font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #5b5ff7, #6c4dff);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 15px;
+    gap: 12px;
+    
 }
 
-.view {
-    border-radius: 5px;
-    margin-top: 10px;
-    background-color: blue;
-    font-size: x-large;
-
+.view { 
+     margin-top: 10px;
+    margin-left: 30px;
+     font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #5b5ff7, #6c4dff);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 15px;
+    gap: 12px;
+    
 }
 
 .icon {
@@ -141,6 +160,7 @@ body {
     padding-top: 30px;
     font-size: 35px;
     margin-left: -40px;
+    margin-top: -10px;
 
 }
 
@@ -211,7 +231,7 @@ body {
 }
 
 .learn {
-    color: blue;
+    color: rgb(6, 83, 155);
     font-size: x-large;
 }
 
@@ -224,9 +244,11 @@ body {
 .portfolio>h1 {
     text-align: center;
     justify-content: center;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bold;
-    padding-top: 10px;
+    font-family:sans-serif;
+    margin-bottom: 15px;
+
 }
 
 .work{
@@ -243,44 +265,119 @@ body {
     padding-top: 20px;
 
 }
+.works :active{
+    color: blue;
+
+}
 
 .project{
     display: flex;
     justify-content:space-around;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
 
     
 }
+.image{
+       border-color: whitesmoke;
+    border-width: 1px;
+    background-color: rgb(226, 220, 220);
+    border-radius: 5px;
+
+}
+
 
 .image>img{
     width: 250px;
     height: 220px;
     border-radius: 10px;
     object-fit: contain;
+    margin-top: 10px;
     
 }
 
 .image>h1{
-    font-size: x-large;
     font-weight: bold;
-    padding-top: -10px;
+      font-size: 30px;
+    font-weight: bold;
+    margin-top: -20px;
 }
 .image>p{
-    font-size: medium;
+      font-size: 20px;
+
 }
 
-.pro{
-    padding-top: 20px;
+
+.project-btn{
     text-align: center;
-    font-size: x-large;
     font-weight: bold;
-    border-radius: 25px; 
     margin-bottom: 30px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #5b5ff7, #6c4dff);
+    color: white;
+    border: none;
+    padding: 12px 35px;
+    font-size: 15px;
+    gap: 12px;
+    margin-left: 45%;
+    margin-top: 40px;
+
 }
-.views{
-    background-color: blue;
-    border-radius: 20px;
-    width: 200px;
+
+.why{
+    width: auto;
+    height: auto;
 }
+.content{ 
+    display: flex;
+    margin-left:130px;
+    
+    
+}
+.imp>h1{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px;
+}
+
+.imp>p{
+    font-size:20px;
+    padding-bottom: 10px;
+}
+
+.us{
+    font-weight: bold;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #5b5ff7, #6c4dff);
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 15px;
+    margin-top: 30px;
+    
+}
+.source{
+display: flex;
+flex-wrap:wrap;
+flex-basis: 50%;
+margin-left: 200px;
+padding-top: 40px;
+font-size: x-large;
+}
+
+.part>i{
+    padding-top: 30px;
+    font-size: 35px;
+    margin-left: -40px;
+    margin-top: -10px;
+
+}
+
+
+    
+
+
+
+
