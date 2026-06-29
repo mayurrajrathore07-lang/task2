@@ -12,7 +12,7 @@ if (letstalkbutton && contactSection) {
 
 learnMoreButtons.forEach((button) => {
 	button.addEventListener('click', () => {
-		alert('currently not available.');
+		alegtrt('currently not available.');
 	});
 });
 
